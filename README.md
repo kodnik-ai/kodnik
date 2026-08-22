@@ -2,6 +2,8 @@
 
 **Local AI coding agent for Windows.**
 
+![Kodnik — Local AI coding agent for Windows](./kodnik-main.png)
+
 Kodnik is a desktop coding agent built to work directly with software projects using local AI models.
 
 It can inspect project files, understand existing code, create and edit files, execute terminal commands, work through multi-step tasks, and help take a project from an instruction to a working result.
@@ -52,7 +54,7 @@ A typical workflow can include:
 
 Kodnik can use development tools as part of the task instead of only suggesting commands for you to run manually.
 
-This allows the AI to move between reasoning, code changes, command execution and verification inside one workflow.
+This allows the AI to move between reasoning, code changes, command execution, and verification inside one workflow.
 
 ---
 
@@ -76,7 +78,7 @@ Kodnik can also support online capabilities when you choose to use them.
 
 ## Built for Windows
 
-Kodnik is a native desktop product focused on Windows.
+Kodnik is a desktop product built for Windows.
 
 It brings together:
 
@@ -95,9 +97,9 @@ inside one application.
 
 ## Use your own hardware
 
-Local AI performance depends on the model, quantization and hardware you choose.
+Local AI performance depends on the model, quantization, and hardware you choose.
 
-Kodnik is designed to make local coding agents practical across different Windows configurations rather than requiring a single fixed hardware setup.
+Kodnik is designed to make local coding agents practical across different Windows configurations rather than requiring one fixed hardware setup.
 
 You decide which local models make sense for your machine and workflow.
 
@@ -134,7 +136,7 @@ Kodnik is available for Windows at:
 
 No subscription is required for the Kodnik license.
 
-A free way to try Kodnik is also available from the official website.
+You can also try Kodnik from the official website before purchasing.
 
 ---
 
@@ -172,12 +174,12 @@ This repository is the official public GitHub home for Kodnik.
 
 The Kodnik application itself is proprietary software. Its source code is not published in this repository.
 
-This repository is used for product information, documentation, issue tracking, releases, technical discussion and project updates.
+This repository is used for product information, documentation, issue tracking, releases, technical discussion, and project updates.
 
 ---
 
 ## Follow Kodnik
 
-Development updates, releases, technical experiments and new capabilities will be published through the official Kodnik channels.
+Development updates, releases, technical experiments, and new capabilities will be published through the official Kodnik channels.
 
 **Local AI. Your code. Your machine. Kodnik.**
