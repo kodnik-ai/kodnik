@@ -1,185 +1,137 @@
-# Kodnik
 
-**Local AI coding agent for Windows.**
+# Kodnik — Local AI Coding Agent for Windows
 
-![Kodnik — Local AI coding agent for Windows](./kodnik-main.png)
+**Create, edit and fix software with local AI, directly on your own computer.**
 
-Kodnik is a desktop coding agent built to work directly with software projects using local AI models.
+Kodnik is a Windows desktop AI coding agent. It works with your actual project files, analyzes code, creates and edits programs, runs terminal commands and helps complete multi-step development tasks.
 
-It can inspect project files, understand existing code, create and edit files, execute terminal commands, work through multi-step tasks, and help take a project from an instruction to a working result.
+**Run AI locally. Work with real projects. Stay in control.**
 
-**Local models. Real project access. Agentic coding. One desktop application.**
-
-[Website](https://kodnik.com) · [Get Kodnik](https://kodnik.com) · [Report an issue](https://github.com/kodnik-ai/kodnik/issues)
+[🌍 Official website — English](https://kodnik.com/) | [🇵🇱 Polska strona](https://kodnik.pl/) | [Download free DEMO](https://kodnik.com/#demo)
 
 ---
 
-## What Kodnik does
+## Kodnik in action
 
-Kodnik is designed to do more than answer programming questions.
+![Kodnik desktop interface](./kodnik-main.png)
 
-It can work directly with your project and take actions needed to complete coding tasks.
+*Real desktop application for Windows. Screenshot should reflect the latest version.*
 
-### Project-aware coding
+## What can Kodnik do?
 
-* Read and analyze project files
-* Understand existing codebases
-* Navigate multi-file projects
-* Find relevant files before making changes
-* Work with project structure and context
+- **Create software** — build applications and project files from natural-language instructions.
+- **Edit existing projects** — analyze, modify and organize code across project files.
+- **Find and fix bugs** — inspect code, investigate errors and apply changes.
+- **Work with the terminal** — share a project terminal session with the user, including PowerShell, CMD and Git Bash.
+- **Plan and execute tasks** — work through multiple development steps with visible progress.
+- **Undo file changes** — restore previous file states using saved restore points.
+- **Browse the web** — use ONLINE tools to search websites, inspect documentation and download files.
+- **Work offline** — run local AI models without sending your project to a remote AI model.
 
-### Create and edit code
+## Local AI models
 
-* Modify existing files
-* Create new files and folders
-* Build new applications and projects
-* Perform multi-file changes
-* Refactor and extend existing code
+Kodnik supports local Qwen model variants, including:
 
-### Agentic workflows
+| Model | Architecture | Main advantage |
+|---|---|---|
+| Qwen 27B | Dense | Stronger results on demanding coding tasks |
+| Qwen 35B-A3B | Mixture of Experts (MoE) | Efficient inference with fewer active parameters |
 
-Kodnik can work through tasks that require multiple steps instead of stopping after a single response.
+Available model files and quantizations can be selected through the application's AI Models panel.
 
-A typical workflow can include:
+**Only one AI model runs at a time.**
 
-1. understanding the request,
-2. inspecting the project,
-3. planning the work,
-4. editing files,
-5. running commands,
-6. checking the result,
-7. fixing problems when necessary.
+Kodnik provides the coding-agent environment, tools and execution system. The AI model provides the reasoning capabilities. Performance and accuracy depend on the selected model, quantization and hardware.
 
-### Integrated terminal and tools
+Model files are distributed separately under their respective licenses.
 
-Kodnik can use development tools as part of the task instead of only suggesting commands for you to run manually.
+## Automatic hardware configuration
 
-This allows the AI to move between reasoning, code changes, command execution, and verification inside one workflow.
+Kodnik detects your computer's hardware and configures local model execution.
 
----
+- Detects CPU, RAM, GPU and VRAM.
+- Supports compatible CUDA and Vulkan acceleration backends.
+- Calculates model-layer allocation between GPU memory and system memory.
+- Supports CPU-only execution when necessary.
+- Adjusts configuration to available hardware resources.
 
-## Local AI
+A dedicated GPU can significantly improve performance, but is not mandatory.
 
-Kodnik is built around **local AI models**.
+## OFFLINE and ONLINE
 
-Your core coding workflow does not need to depend on a remote AI service. Models can run directly on your Windows machine and work with your projects locally.
+**OFFLINE:** Work with local models and project files on your own computer without requiring a permanent internet connection.
 
-This gives you direct control over:
+**ONLINE:** Enable internet tools when you want Kodnik to search the web, inspect documentation or download resources.
 
-* the model you use,
-* where inference happens,
-* your project files,
-* your hardware,
-* and how your coding environment is configured.
+Internet access is required for initial model downloads, account activation and application updates.
 
-Kodnik can also support online capabilities when you choose to use them.
+## Free DEMO — 2 hours
 
----
+Try Kodnik on your computer before purchasing.
 
-## Built for Windows
+The DEMO includes local model testing, project work, code editing, terminal access and ONLINE capabilities.
 
-Kodnik is a desktop product built for Windows.
+- 2 hours of total application runtime.
+- The timer pauses when the application is closed.
+- No purchase or Kodnik account required.
+- Available for Windows 10/11 64-bit.
 
-It brings together:
+**[Download Kodnik DEMO](https://kodnik.com/#demo)**
 
-* AI chat,
-* project context,
-* file operations,
-* code editing,
-* agent workflows,
-* local models,
-* terminal execution,
-* development tools,
+## Kodnik FULL — 12-month license
 
-inside one application.
+The paid version provides access to Kodnik for 12 months, including updates during the valid license period.
 
----
+| Market | Price |
+|---|---|
+| Poland | **99 PLN / 12 months** |
+| International | **11.99 EUR / 12 months** |
 
-## Use your own hardware
+Each license term is purchased separately.
 
-Local AI performance depends on the model, quantization, and hardware you choose.
+**No automatic renewal. No automatic recurring charges.**
 
-Kodnik is designed to make local coding agents practical across different Windows configurations rather than requiring one fixed hardware setup.
+The paid version includes Thinking mode and application updates during the license term.
 
-You decide which local models make sense for your machine and workflow.
+[Purchase — Poland](https://kodnik.pl/) | [Purchase — International](https://kodnik.com/)
 
----
+Previous purchases retain their original license terms.
 
-## Kodnik is a product, not a model
+## System requirements
 
-Kodnik does not try to replace the model itself.
+- Windows 10 or Windows 11, 64-bit.
+- x86-64 processor with AVX2 support.
+- RAM and disk space dependent on the selected local model.
+- Compatible GPU optional; GPU acceleration can improve speed.
+- Internet connection for initial setup, model downloads and updates.
 
-It provides the environment around the model:
+Unsure about performance on your PC? Test the DEMO before purchasing.
 
-* project access,
-* context,
-* tools,
-* file editing,
-* execution,
-* workflow control,
-* model integration,
-* and the desktop interface needed to turn an LLM into a coding agent.
-
-The model provides intelligence.
-
-**Kodnik gives it a workspace and the ability to act.**
-
----
-
-## Get Kodnik
-
-Kodnik is available for Windows at:
-
-### **https://kodnik.com**
-
-**$5.99 USD — one-time purchase.**
-
-No subscription is required for the Kodnik license.
-
-You can also try Kodnik from the official website before purchasing.
-
----
-
-## Feedback and issues
+## Feedback and bug reports
 
 Kodnik is under active development.
 
-If you find a bug, unexpected agent behavior, compatibility problem, or have a feature request, open an issue:
+Bug reports, compatibility issues and technical feedback are welcome.
 
-**https://github.com/kodnik-ai/kodnik/issues**
+[Open a GitHub issue](https://github.com/kodnik-ai/kodnik/issues)
 
-Technical feedback is especially useful when it includes:
-
-* what you asked Kodnik to do,
-* what model was being used,
-* what you expected,
-* what actually happened,
-* relevant logs or screenshots,
-* hardware information when performance is involved.
-
----
+Please include the task, model, expected result, actual behavior and relevant diagnostics when possible.
 
 ## Official links
 
-* **Website:** https://kodnik.com
-* **GitHub:** https://github.com/kodnik-ai/kodnik
-* **Issues:** https://github.com/kodnik-ai/kodnik/issues
-* **Contact:** [kontakt@kodnik.pl](mailto:kontakt@kodnik.pl)
+- English: https://kodnik.com/
+- Polish: https://kodnik.pl/
+- GitHub: https://github.com/kodnik-ai/kodnik
+- Contact: kontakt@kodnik.pl
+
+## About this repository
+
+This repository is the official public GitHub presence of Kodnik.
+
+**Kodnik is proprietary software. Its application source code is not publicly available in this repository.**
+
+The repository is used for product information, documentation, technical feedback and public project updates.
 
 ---
 
-## Source code
-
-This repository is the official public GitHub home for Kodnik.
-
-The Kodnik application itself is proprietary software. Its source code is not published in this repository.
-
-This repository is used for product information, documentation, issue tracking, releases, technical discussion, and project updates.
-
----
-
-## Follow Kodnik
-
-Development updates, releases, technical experiments, and new capabilities will be published through the official Kodnik channels.
-
-**Local AI. Your code. Your machine. Kodnik.**
+**Kodnik — Local AI. Your code. Your machine.**
